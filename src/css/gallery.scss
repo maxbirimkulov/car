@@ -1,0 +1,38 @@
+.gallery{
+  padding: 90px 0;
+  background: #353535;
+  &__title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+    span{
+      color: $orange;
+    }
+  }
+  &__row{
+    display: flex;
+    column-gap: 40px;
+    flex-wrap: wrap;
+  }
+  &__images{
+    width: calc(50% - 20px);
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  &__info{
+    width: calc(50% - 20px);
+    height: 400px;
+    background: white;
+  }
+  &__img-2{
+    width: calc(66.66666% - 5px);
+  }
+  &__img-1{
+    width: calc(33.33333% - 10px);
+  }
+  img{
+    width: 100%;
+  }
+}

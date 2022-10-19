@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <nav class="header__nav">
+            <h1 class="header__title">
+                <img src="./src/images/logo.svg" alt="Logo Katal-s">
+            </h1>
+            <span class="header__logo">
+                <svg width="56" height="87" viewBox="0 0 56 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 -17H56V85.3688C56 86.1153 55.2116 86.5986 54.5463 86.2599L28.5 73L1.44091 86.2922C0.776439 86.6186 0 86.1349 0 85.3946V-17Z" fill="#FECB02"/>
+</svg>
+
+            </span>
+            <div class="header__map">
+                <span class="header__map-icon">
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="25" fill="#FFEEDF"/>
+<path d="M25 10C19.1845 10 14.4531 14.7313 14.4531 20.5469C14.4531 22.5118 14.9974 24.4293 16.0275 26.0929L24.3996 39.5845C24.56 39.843 24.8426 40 25.1464 40C25.1488 40 25.1511 40 25.1534 40C25.4599 39.9976 25.743 39.8357 25.9005 39.5727L34.0592 25.9504C35.0325 24.322 35.5469 22.4535 35.5469 20.5469C35.5469 14.7313 30.8155 10 25 10ZM32.5507 25.0479L25.1331 37.4328L17.5215 25.1668C16.6641 23.7821 16.1992 22.1846 16.1992 20.5469C16.1992 15.7006 20.1537 11.7461 25 11.7461C29.8463 11.7461 33.7949 15.7006 33.7949 20.5469C33.7949 22.136 33.3607 23.6927 32.5507 25.0479Z" fill="#FD7900"/>
+<path d="M25 15.2734C22.0922 15.2734 19.7266 17.6391 19.7266 20.5469C19.7266 23.4361 22.0537 25.8203 25 25.8203C27.9826 25.8203 30.2734 23.4043 30.2734 20.5469C30.2734 17.6391 27.9078 15.2734 25 15.2734ZM25 24.0742C23.0513 24.0742 21.4727 22.4903 21.4727 20.5469C21.4727 18.6084 23.0615 17.0195 25 17.0195C26.9385 17.0195 28.5215 18.6084 28.5215 20.5469C28.5215 22.4619 26.9795 24.0742 25 24.0742Z" fill="#FD7900"/>
+</svg>
+
+                </span>
+                <div>
+                    <p class="header__map-title">Удобное местоположение</p>
+                    <a href="" class="header__map-link">Смотреть на карте</a>
+                </div>
+            </div>
+            <div class="header__right">
+                <div>
+                    <p class="header__question">Задайте нам вопрос:</p>
+                    <p class="header__whatsapp" ><a href="">WhatsApp</a></p>
+                </div>
+                <span class="header__whatsapp-logo">
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="50" height="50" rx="25" fill="#00BB25"/>
+<g clip-path="url(#clip0_51_210)">
+<path d="M32.7927 27.8837L32.7815 27.9775C30.0327 26.6075 29.7452 26.425 29.3902 26.9575C29.144 27.3262 28.4265 28.1625 28.2102 28.41C27.9915 28.6537 27.774 28.6725 27.4027 28.5037C27.0277 28.3162 25.824 27.9225 24.399 26.6475C23.289 25.6537 22.544 24.435 22.324 24.06C21.9577 23.4275 22.724 23.3375 23.4215 22.0175C23.5465 21.755 23.4827 21.5487 23.3902 21.3625C23.2965 21.175 22.5502 19.3375 22.2377 18.605C21.9377 17.875 21.629 17.9675 21.3977 17.9675C20.6777 17.905 20.1515 17.915 19.6877 18.3975C17.6702 20.615 18.179 22.9025 19.9052 25.335C23.2977 29.775 25.1052 30.5925 28.4102 31.7275C29.3027 32.0112 30.1165 31.9712 30.7602 31.8787C31.4777 31.765 32.969 30.9775 33.2802 30.0962C33.599 29.215 33.599 28.4837 33.5052 28.315C33.4127 28.1462 33.1677 28.0525 32.7927 27.8837Z" fill="white"/>
+<path d="M36.5591 14.3114C26.9478 5.02011 11.0416 11.7589 11.0353 24.8664C11.0353 27.4864 11.7216 30.0414 13.0291 32.2976L10.9091 40.0001L18.8278 37.9351C28.7091 43.2726 40.9041 36.1851 40.9091 24.8739C40.9091 20.9039 39.3591 17.1676 36.5403 14.3601L36.5591 14.3114ZM38.4116 24.8326C38.4041 34.3739 27.9303 40.3326 19.6466 35.4626L19.1966 35.1951L14.5091 36.4139L15.7653 31.8576L15.4666 31.3889C10.3116 23.1826 16.2341 12.4576 25.9991 12.4576C29.3166 12.4576 32.4303 13.7514 34.7753 16.0951C37.1191 18.4189 38.4116 21.5326 38.4116 24.8326Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_51_210">
+<rect width="30" height="30" fill="white" transform="translate(10.9091 10)"/>
+</clipPath>
+</defs>
+</svg>
+
+                </span>
+                <div>
+                    <a class="header__number" href="tel:+7 906 059-10-98">+7 906 059-10-98</a>
+                    <p class="header__time">Работаем без выходных</p>
+                </div>
+            </div>
+        </nav>
+        <ul class="header__menu"></ul>
+    </div>
+</header>
+
+
+<main>
+    <section class="gallery">
+        <div class="container">
+            <h2 class="gallery__title">Галерея <span>наших работ</span> </h2>
+            <div class="gallery__row">
+                <div class="gallery__images">
+                    <a data-width="800" data-height="400" class="gallery__img-2" data-fancybox="gallery" href="./src/images/img1.png" data-caption="It run !!!">
+                        <img src="./src/images/img1.png" alt="">
+                    </a>
+                    <a data-width="400" data-height="400"  class="gallery__img-1" data-fancybox="gallery" href="./src/images/img2.png" data-caption="It run !!!">
+                        <img src="./src/images/img2.png" alt="">
+                    </a>
+                    <a class="gallery__img-1" data-fancybox="gallery" href="./src/images/img4.png" data-caption="It run !!!">
+                        <img  src="./src/images/img4.png" alt="">
+                    </a>
+                    <a class="gallery__img-2" data-fancybox="gallery" href="./src/images/img3.png" data-caption="It run !!!">
+                        <img  src="./src/images/img3.png" alt="">
+                    </a>
+                    <a class="gallery__img-1" data-fancybox="gallery" href="./src/images/img5.png" data-caption="It run !!!">
+                        <img  src="./src/images/img5.png" alt="">
+                    </a>
+                    <a class="gallery__img-1" data-fancybox="gallery" href="./src/images/img6.png" data-caption="It run !!!">
+                        <img  src="./src/images/img6.png" alt="">
+                    </a>
+                    <a class="gallery__img-1" data-fancybox="gallery" href="./src/images/img7.png" data-caption="It run !!!">
+                        <img  src="./src/images/img7.png" alt="">
+                    </a>
+                </div>
+                <div class="gallery__info"></div>
+            </div>
+        </div>
+    </section>
+    <section class="example">
+        <div class="container">
+            <h2 class="example__title">Примеры выполненных работ</h2>
+            <div class="example__row">
+                <a href="https://www.youtube.com/watch?v=L90uf5d0Qfw" data-fancybox class="example__image">
+                    <img src="./src/images/example1.png" alt="">
+                </a>
+                <div class="example__info">
+                    <h3 class="example__info-title">BMW series 3 (2016)</h3>
+                    <div class="example__info-blog"></div>
+                    <div class="example__info-blog"></div>
+                    <div>
+                        <button class="example__btn"> Записаться</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<div class="overlay">
+    <form class="popup"  action="https://formsubmit.io/send/maxbirimkulov@mail.ru" method="POST">
+        <h2 class="popup__title">Записаться на удаление</h2>
+        <input name="_redirect" type="hidden" id="name" value="http://localhost:63342/car/index.html?_ijt=c7f1hupn3nor7gtd4spi5he548&_ij_reload=RELOAD_ON_SAVE">
+        <input name="name" class="popup__field" type="text" placeholder="Ваше имя">
+        <input name="model" class="popup__field" type="text" placeholder="Марка авто">
+        <input name="phone" class="popup__field" type="tel" placeholder="+996 (___) __-__-__">
+        <button type="submit" class="popup__btn">Удалить катализатор</button>
+    </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script src="./src/js/main.js"></script>
+</body>
+</html>
